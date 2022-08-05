@@ -79,6 +79,8 @@ footer
     height: 350px;
     margin-top: -130px;
     width: 75%;
+    min-width: 400px;
+    max-width: 400px;
 }
 .form button
 {
@@ -91,6 +93,7 @@ footer
     background: #1877F2;
     color: #fff;
     border: #1877F2;
+    cursor: pointer;
 }
 .form a
 {
@@ -135,7 +138,7 @@ input:focus {
 }
 .line
 {   
-    margin-top: 30px;
+    margin-top: 20px;
     border: #dddfe2 1px solid
 }
 .card p
@@ -168,7 +171,7 @@ input:focus {
     color: #737373;
 
 }
-@media(max-width: 768px)
+@media(max-width: 968px)
 {
     
     .container
@@ -176,18 +179,29 @@ input:focus {
         
         flex-direction: column;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 35gpx;
     }
     .item 
     {
-
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    }
+    .item h2
+    {
+        font-size: 25px;
+        font-weight: 500px;
     }
     .card
     {
         margin-right: -160px;
-        width: 100%;
+        width: 90%;
         margin-left: 50px;
+        min-width: 400px;
+        max-width: 400px;
+    }
+    .footer
+    {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
