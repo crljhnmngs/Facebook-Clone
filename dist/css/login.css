@@ -18,7 +18,7 @@ body
     align-items: center;
     height: 100vh;
     gap: 100px;
-    margin-right: 250px;
+    margin-right: 220px;
 }
 footer
 {
@@ -26,9 +26,11 @@ footer
 }
 .item
 {
+    
     margin-left: 210px;
     margin-top: -230px;
-    width: 2000px;
+    width: 90%;
+
     
     margin-right: 30px;
 }
@@ -74,9 +76,9 @@ footer
     border-radius: 10px;
     padding: 15px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    width: 1600px;
     height: 350px;
     margin-top: -130px;
+    width: 75%;
 }
 .form button
 {
@@ -166,13 +168,26 @@ input:focus {
     color: #737373;
 
 }
-@media(max-width: 868px)
+@media(max-width: 768px)
 {
     
     .container
     {
-        display: flex;
+        
         flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .item 
+    {
+
+    margin-bottom: 80px;
+    }
+    .card
+    {
+        margin-right: -160px;
+        width: 100%;
+        margin-left: 50px;
     }
 
 }
