@@ -6,6 +6,8 @@
 :root
 {
     --primary-text: #E4E6EB;
+    --primary-icon: #E4E6EB;
+
 }
 body
 {
@@ -118,5 +120,31 @@ aside
     height: 40px;
     width: 40px;
     background-color: #3a3b3c;
+    border-radius: 50%;
+}
+.profile .messenger
+{
+    display: flex;
+    width: 18.5px;
+    height: 18.5px;
+}
+.profile .notif
+{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.profile li:hover
+{
+    background: rgba(143, 143, 143, 0.466);
+}
+.profile .profile-picture
+{
+    display: flex;
+}
+.profile .profile-picture img
+{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
