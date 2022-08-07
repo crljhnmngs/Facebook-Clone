@@ -11,7 +11,7 @@
 }
 body
 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
 .container
@@ -21,7 +21,7 @@ body
     grid-template-areas: 
     'header header header '
     'nav main aside';
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 1.8fr 3fr 2fr;
     grid-template-rows: 55px 1fr;
 }
 header, nav, main, aside
@@ -45,11 +45,13 @@ main
 {
     grid-area: main;
     background-color: #18191A;
+    border: steelblue 1px solid;
 }
 aside
 {
     grid-area: aside;
     background-color: #18191A;
+    border: steelblue 1px solid;
 }
 .header
 {
@@ -68,6 +70,7 @@ aside
 {
     background-color: #3a3b3c;
     margin-top: -10px;
+    margin-right: 80px;
     height: 40px;
     border-radius: 50px;
     padding: 0 10px;
@@ -75,8 +78,8 @@ aside
 
 .searchbar input
 {
-    width: 500px;
-    margin-right: 50px;
+    width: 350px;
+    margin-right: 200px;
     height: 40px;
     color: var(--primary-text);
     font-size: 15px;
@@ -148,3 +151,140 @@ aside
     height: 40px;
     border-radius: 50%;
 }
+.nav-container
+{
+    margin-top: -10px;
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-container .home
+{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-text);
+    /* border: steelblue 1px solid; */
+}
+.nav-container .home img
+{
+    margin-left: 8px;
+    margin-right: 15px;
+    width: 20px;
+    height: 25px;
+}
+.nav-container .home span
+{
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nav-container .profile-name span
+{
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nav-container .profile-name
+{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    color: var(--primary-text);
+    /* border: steelblue 1px solid; */
+}
+.nav-container .profile-name img
+{
+    margin-left: 8px;
+    margin-right: 12px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+}
+.menu .items
+{
+    padding: 10px 0px;
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+    color: var(--primary-text);
+    /* border: steelblue 1px solid; */
+}
+.menu
+{
+    margin-top: 10px;
+}
+.menu .items .menu-icon img
+{
+    margin-top: 1.5px;
+    margin-left: 2.4px;
+    height: 27px;
+    width: 27px;
+}
+.menu .menu-icon
+{
+    margin-left: 5px;
+    margin-right: 8px;
+    display: flex;
+    height: 32px;
+    width: 32px;
+    background-color: #323233;
+    border-radius: 50%;
+}
+.menu .items span
+{
+    letter-spacing: 1px;
+}
+.menu .items img
+{
+    margin-top: -5px;
+    margin-left: 8px;
+    margin-right: 12px;
+    width: 25px;
+    height: 25px;
+}
+.shortcuts
+{
+    margin-top: 6px;
+}
+.shortcuts .items
+{
+    display: flex;
+    align-items:center;
+    padding: 10px 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.shortcuts .items .shortcut-icon-container
+{
+    margin-left: 5px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 32px;
+    background-color: #323233;
+    border-radius: 50%;
+}
+.shortcuts .items .shortcut-icon-container img
+{
+    font-weight: normal;
+    margin-left: 12px;
+    width: 18px;
+    height: auto;
+}
+.shortcuts .items span
+{
+    letter-spacing: 1px;
+}
+.shortcuts .items img
+{
+    margin-left: 8px;
+    margin-right: 12px;
+    width: 23px;
+    height: 23px;
+    border-radius: 6px;
+}
+
