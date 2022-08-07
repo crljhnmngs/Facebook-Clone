@@ -203,7 +203,7 @@ aside
 }
 .menu .items
 {
-    padding: 10px 0px;
+    padding: 8px 0px;
     display: flex;
     font-size: 13px;
     font-weight: bold;
@@ -286,5 +286,23 @@ aside
     width: 23px;
     height: 23px;
     border-radius: 6px;
+}
+.nav-container .home:hover
+{
+    background: rgba(143, 143, 143, 0.466);
+    width: 300px;
+    border-radius: 10px;
+}
+.nav-container .profile-name:hover
+{
+    background: rgba(143, 143, 143, 0.466);
+    width: 300px;
+    border-radius: 10px;
+}
+.nav-container .items:hover
+{
+    background: rgba(143, 143, 143, 0.466);
+    width: 300px;
+    border-radius: 10px;
 }
 
